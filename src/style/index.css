@@ -1,0 +1,326 @@
+/*reset weui*/
+.weui-toast__content {
+  font-size: 28px !important;
+  padding: 20px !important;
+  white-space: nowrap;
+  width: auto !important;
+  min-width: auto !important;
+}
+[data-dpr=2].weui-toast__content {
+  font-size: 56px !important;
+}
+[data-dpr=3].weui-toast__content {
+  font-size: 84px !important;
+}
+.weui-toast {
+  top: 45% !important;
+  width: auto !important;
+  min-width: auto !important;
+  min-height: auto !important;
+}
+.weui-cell {
+  padding: 30px 30px !important;
+  font-size: 28px !important;
+}
+[data-dpr=2].weui-cell {
+  font-size: 56px !important;
+}
+[data-dpr=3].weui-cell {
+  font-size: 84px !important;
+}
+.weui-textarea {
+  text-align: right;
+}
+.weui-loading {
+  width: 60px !important;
+  height: 60px !important;
+}
+.vux-popup-header {
+  height: 80px !important;
+  line-height: 80px !important;
+  font-size: 32px !important;
+}
+[data-dpr=2].vux-popup-header {
+  font-size: 64px !important;
+}
+[data-dpr=3].vux-popup-header {
+  font-size: 96px !important;
+}
+.scroller-component {
+  height: 540px !important;
+}
+.scroller-mask {
+  background-size: 100% 240px !important;
+  height: 100% !important;
+}
+.scroller-item {
+  font-size: 32px !important;
+  height: 60px !important;
+  line-height: 60px !important;
+}
+[data-dpr=2].scroller-item {
+  font-size: 64px !important;
+}
+[data-dpr=3].scroller-item {
+  font-size: 96px !important;
+}
+.scroller-indicator {
+  height: 60px !important;
+  top: 240px !important;
+  background-size: 100% 1px !important;
+  /*no*/
+}
+.weui-cell_access .weui-cell__ft:after {
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -10px !important;
+  border-width: 1px 1px 0 0;
+  /*no*/
+  right: -10px !important;
+}
+.weui-icon-clear {
+  font-size: 32px !important;
+}
+[data-dpr=2].weui-icon-clear {
+  font-size: 64px !important;
+}
+[data-dpr=3].weui-icon-clear {
+  font-size: 96px !important;
+}
+.weui-cells {
+  margin-top: 36px !important;
+}
+.weui-cells__title {
+  font-size: 28px !important;
+  margin-top: 35px !important;
+  margin-bottom: 25px !important;
+}
+[data-dpr=2].weui-cells__title {
+  font-size: 56px !important;
+}
+[data-dpr=3].weui-cells__title {
+  font-size: 84px !important;
+}
+.weui-cells:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 2px !important;
+  /*no*/
+  border-bottom: 1px solid #e7e7e7 !important;
+  /*no*/
+  color: #e7e7e7;
+  transform-origin: 0 100%;
+  transform: scaleY(0.5);
+}
+.weui-cells:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 2px  !important;
+  /*no*/
+  border-top: 1px solid #e7e7e7 !important;
+  /*no*/
+  color: #e7e7e7;
+  transform-origin: 0 0;
+  transform: scaleY(0.5);
+}
+.weui-cell:before,
+.vux-cell-box:not(:first-child):before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 2px  !important;
+  /*no*/
+  border-top: 1px solid #e7e7e7 !important;
+  /*no*/
+  color: #e7e7e7;
+  transform-origin: 0 0;
+  transform: scaleY(0.5);
+}
+.weui-input {
+  font-size: 28px !important;
+}
+[data-dpr=2].weui-input {
+  font-size: 56px !important;
+}
+[data-dpr=3].weui-input {
+  font-size: 84px !important;
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #666;
+}
+.vux-popup-picker-placeholder {
+  font-size: 28px !important;
+  color: #666 !important;
+}
+[data-dpr=2].vux-popup-picker-placeholder {
+  font-size: 56px !important;
+}
+[data-dpr=3].vux-popup-picker-placeholder {
+  font-size: 84px !important;
+}
+.vux-cell-value {
+  font-size: 28px !important;
+  color: #000 !important;
+}
+[data-dpr=2].vux-cell-value {
+  font-size: 56px !important;
+}
+[data-dpr=3].vux-cell-value {
+  font-size: 84px !important;
+}
+.weui-cell__ft {
+  color: #666 !important;
+}
+.weui-tab__panel {
+  padding-bottom: 110px !important;
+}
+.weui-dialog {
+  width: 80% !important;
+  max-width: none !important;
+}
+.weui-dialog__bd {
+  font-size: 28px !important;
+}
+[data-dpr=2].weui-dialog__bd {
+  font-size: 56px !important;
+}
+[data-dpr=3].weui-dialog__bd {
+  font-size: 84px !important;
+}
+.weui-dialog__ft {
+  font-size: 28px !important;
+  line-height: 80px !important;
+}
+[data-dpr=2].weui-dialog__ft {
+  font-size: 56px !important;
+}
+[data-dpr=3].weui-dialog__ft {
+  font-size: 84px !important;
+}
+.weui-dialog__bd:first-child {
+  padding: 0.96rem 0.8rem 0.96rem !important;
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: 'PingFangSC-Regular', 'Helvetica Neue', Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  touch-action: pan-y;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+::-webkit-input-placeholder {
+  font-family: -apple-system-font, Helvetica Neue, sans-serif;
+}
+a {
+  -webkit-touch-callout: none;
+}
+ul {
+  list-style: none;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  background-color: #f5f5f5;
+}
+body.card {
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  line-height: 1;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../asset/dun.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 22px;
+}
+.blueicon {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../asset/iconblue.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 29px;
+  height: 32px;
+}
+input {
+  -webkit-tap-highlight-color: transparent ;
+  -webkit-appearance: none;
+}
+.danger {
+  background: #ffedeb;
+  padding: 30px 20px;
+  font-size: 28px !important;
+  color: #fb6451;
+  text-align: left;
+}
+[data-dpr=2].danger {
+  font-size: 56px !important;
+}
+[data-dpr=3].danger {
+  font-size: 84px !important;
+}
+.dangercenter {
+  background: #ffedeb;
+  padding: 30px 20px;
+  font-size: 28px !important;
+  color: #fb6451;
+  text-align: center;
+}
+[data-dpr=2].dangercenter {
+  font-size: 56px !important;
+}
+[data-dpr=3].dangercenter {
+  font-size: 84px !important;
+}
+.marg {
+  margin: 60px 30px 0;
+}
+.mg30 {
+  margin: 30px;
+}
