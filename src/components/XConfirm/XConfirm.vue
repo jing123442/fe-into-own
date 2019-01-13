@@ -84,7 +84,7 @@
                 &::after {
                     width: 0;
                     height: 110px;
-                    border-left: 5px dotted #fff;
+                    border-left: 4px dotted #fff;
                     position: absolute;
                     bottom: -110px;
                     content: '';

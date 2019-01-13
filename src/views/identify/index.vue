@@ -39,9 +39,8 @@
         userCard: '',
         customData: {
           button: '自定义按钮',
-          tip: 'ss',
-          other:{}
-
+          tip: 'hiiyiui',
+          src: 'jhgugu'
         }
       }
     },
@@ -56,6 +55,9 @@
     },
     methods: {
       CustomClick(data) {
+        this.customData = {
+          tip: ''
+        }
         console.log('Custom click???', data)
       },
       gotoIdentify() { // 跳转达到ocr页面，传递ocrType为1
